@@ -98,8 +98,11 @@ nav a:hover{
   cursor: pointer;
 }
 
-.textoestudantes{
+.textosobre{
     text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+    text-decoration: none;
 }
 
 .estudantes{
@@ -107,19 +110,23 @@ nav a:hover{
     text-align: center;
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 5%;
     justify-content: center;
 }
+
 .estudantes a{
-    width: 20%;
-    height: 20%;
     object-fit: cover;
-    border-radius: 50px;
+    border-radius: 200px;
+    text-decoration: none;
+    display: grid;
+    font-size: 200%;
 }
+
 .estudantes img{
     max-height: 446px;
+    max-width: 390px;
     object-fit: cover;
-    border-radius: 50px;
+    border-radius: 60px;
 }
 
 .footer{
