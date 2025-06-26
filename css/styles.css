@@ -1,0 +1,130 @@
+.acessibilidade {
+  font-size: 2rem;
+}
+
+.titulo {
+    font-family: "Doto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "ROND" 0;
+    text-align: center;
+}
+
+.titulo img{
+    height: 10%;
+    width: 10%;
+}
+
+.subtitulo{
+    font-family: "Handjet", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "ELGR" 1, "ELSH" 2;
+}
+
+.texto{
+    text-align: justify;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.texto img{
+    height: 35%;
+    width: 35%;
+}
+
+header{
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+nav{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+nav img{
+    height: 2%;
+    width: 2%;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 10px 16px;
+    color: white;
+    background-color:rgb(1, 202, 125);
+    border-radius: 6px;
+}
+
+nav a:hover{
+    color: white;
+    background-color:darkblue;
+}
+
+.dark {
+    background-color: rgb(0, 0, 29);
+    margin: 0px;
+    color: rgb(224, 186, 255);
+}
+
+.navdark{
+    background-color: rgb(0, 0, 29);
+    border-bottom: 3px solid indigo;
+}
+
+.navwhite{
+    background-color: rgb(233, 228, 232);
+    border-bottom: 3px solid darkblue;
+}
+
+.white {
+    background-color: rgb(233, 228, 232);
+    margin: 0px;
+    color: rgb(12, 0, 66);
+}
+
+.botoes button {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.textoestudantes{
+    text-align: center;
+}
+
+.estudantes{
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.estudantes a{
+    width: 20%;
+    height: 20%;
+    object-fit: cover;
+    border-radius: 50px;
+}
+.estudantes img{
+    max-height: 446px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.footer{
+    position: sticky;
+    display: flex;
+    flex-wrap: wrap;
+    bottom: 0;
+}
